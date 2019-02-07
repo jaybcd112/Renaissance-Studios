@@ -4,6 +4,13 @@
 
 void powerTower(float base, int reps);
 
+//NANI
+/*
+
+This is a multi-line comment
+
+*/
+
 int main()
 {
     float base = 0;
