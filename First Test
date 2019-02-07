@@ -1,0 +1,29 @@
+#include "pch.h"
+#include <iostream>
+#include <cmath>
+
+void powerTower(float base, int reps);
+
+int main()
+{
+    float base = 0;
+    int reps = 0;
+    std::cout << "Base: ";
+    std::cin >> base;
+    std::cout << "Repetitions: ";
+    std::cin >> reps;
+    powerTower(base, reps);
+    return 0;
+}
+
+void powerTower(float base, int reps)
+{
+    float a = base;
+    float value = base;
+
+    for (int i = 0; i <    reps, i = i + 1;) 
+    {
+        value = pow(a, value);
+    }
+    std::cout << base << " raised to itself " << reps << " times = " << value << "\n";
+}
